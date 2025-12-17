@@ -9,7 +9,7 @@ MATT stands for "Multifunction Altimeter with Telemetry and Tracking", and is a 
 * Land under thrust
 	* Need to be able to control servos for thrust vectoring
 
-I also want to use this project as a vehicle for learning about PCB design, and to improve my electronics skills more generally. I intend to use one of the Pimoroni Pico boards as a starting point, and then to create my own PCB to provide the rest of the functionality I require. 
+I also want to use this project as a vehicle for learning about PCB design, and to improve my electronics skills more generally. I intend to one of the Pimoroni Pico boards (maybe a different microcontroller, but not an arduino) as a starting point, and then to create my own PCB to provide the rest of the functionality I require. 
 
 While the resulting flight computer will be overkill for all of these applications, as I don't expect space or weight contraints to be an issue for any of the flights (within reasonable bounds), having them all use the same computer means that every flight can help collect data and test functionality for each of the other applications. If I subsequently find I want a more compact, focussed flight computer for a specific application, then that can be its own project, building on the experience gained here.
 
@@ -31,6 +31,8 @@ While the resulting flight computer will be overkill for all of these applicatio
 	* Allows reuse of existing equiment
 1. Must have enough PWM outputs to control a thrust vectoring mount and deploy legs
 	* Required to meet the Land under thrust task task definition
+1. Should have enough PWM outputs to control 4 canards instead of thrust vectoring and legs
+	* Makes the result more future proof
 1. Must have sensors that indicate attitude
 	* Required to complete the Land under thrust task 
 1. Should have a GPS module, and be able to transmit as a GPS tracking radio
@@ -38,6 +40,10 @@ While the resulting flight computer will be overkill for all of these applicatio
 ---------------------
 
 # Potential chips/ boards to investigate
+
+## Teensy 4.1
+
+Looks like this might be significantly more powerful than a Pico Plus 2 W?
 
 ## Pimoroni Pico LiPo 2 XL W
 
