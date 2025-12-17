@@ -9,9 +9,9 @@ MATT stands for "Multifunction Altimeter with Telemetry and Tracking", and is a 
 * Land under thrust
 	* Need to be able to control servos for thrust vectoring
 
-I also want to use this project as a vehicle for learning about PCB design, and to improve my electronics skills more generally. I intend to one of the Pimoroni Pico boards (maybe a different microcontroller, but not an arduino) as a starting point, and then to create my own PCB to provide the rest of the functionality I require. 
+I also want to use this project as a vehicle for learning about PCB design, and to improve my electronics skills more generally. I intend to use a microcontroller board (maybe a Pico of some sort, or a Teensy) as a starting point, and then to create my own PCB to provide the rest of the functionality I require. I might do this in stages, creating some simpler boards with a subset of the final functionality on the way towards the final board. 
 
-While the resulting flight computer will be overkill for all of these applications, as I don't expect space or weight contraints to be an issue for any of the flights (within reasonable bounds), having them all use the same computer means that every flight can help collect data and test functionality for each of the other applications. If I subsequently find I want a more compact, focussed flight computer for a specific application, then that can be its own project, building on the experience gained here.
+While the resulting flight computer will be overkill for all of these applications, as I don't expect space or weight contraints to be an issue for any of the flights (within reasonable bounds), having them all use the same computer (or at least a subset of the same computer) means that every flight can help collect data and test functionality for each of the other applications. If I subsequently find I want a more compact, focussed flight computer for a specific application, then that can be its own project, building on the experience gained here. 
 
 ---------------------
 
@@ -26,15 +26,19 @@ While the resulting flight computer will be overkill for all of these applicatio
 1. Should have individual wireless test functionality for both deployment channels
 	* Makes the result more flexible, but could be a later update
 1. Must have UK legal radio link capable of transmitting recorded data at 1Hz
-	* Required to meet Satillite task definition
+	* Required to meet Satellite task definition
+1. Must record temperature data as well as pressure data, for transmission
+	* Required for Satellite task
 1. Should transmit on a frequency and in a format that can be picked up by an eggtimer USB ground station
 	* Allows reuse of existing equiment
 1. Must have enough PWM outputs to control a thrust vectoring mount and deploy legs
 	* Required to meet the Land under thrust task task definition
 1. Should have enough PWM outputs to control 4 canards instead of thrust vectoring and legs
 	* Makes the result more future proof
-1. Must have sensors that indicate attitude
+1. Must have accelerometers and gyroscopes
 	* Required to complete the Land under thrust task 
+1. Should have magnetometers
+	* Makes the result more flexible
 1. Should have a GPS module, and be able to transmit as a GPS tracking radio
 	* Makes the result more useful, given an onboard radio is required already
 	
@@ -65,11 +69,13 @@ Useful links:
 
 * [Pi Hut Teensy 4.1](https://thepihut.com/products/teensy-4-1)
 * [Pimoroni Teensy 4.1](https://shop.pimoroni.com/products/teensy-4-1?variant=31757218250835)
+* [Teensy 4.1 documentation](https://www.pjrc.com/store/teensy41.html)
 
 Or:
 
 * [Pi Hut Teensy 4.0](https://thepihut.com/products/pjrc-teensy-4-0-usb-development-board)
 * [Pimoroni Teensy 4.0](https://shop.pimoroni.com/products/teensy-4-0-development-board?variant=29443577217107)
+* [Teensy 4.0 documentation](https://www.pjrc.com/store/teensy40.html)
 
 
 ## RF modules
