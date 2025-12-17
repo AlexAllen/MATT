@@ -3,7 +3,7 @@
 MATT stands for "Multifunction Altimeter with Telemetry and Tracking", and is a DIY flight computer project that aims to tick several boxes in the [United Kingdom Rocketry Association's (UKRA) Model Achievement Program (MAP)](https://ukra.org.uk/certification/model-achievement-programme/). I have already done the DIY altimeter task, using an Arduino and breakout boards on stripboard, as recorded in [my rocket altimeter repo](https://github.com/AlexAllen/rocket_altimeter), and this project intends to produce something that can tick all of the remaining MAP tasks that require a custom altimeter:
 
 * DIY flight computer
-	* Details are light on the exact requirements, but assume a typical dual deploy flight computer
+	* Details are light on the exact requirements, but I'm assuming a typical dual deploy flight computer
 * Satellite
 	* A cansat which records some physical data and transmits it back to the ground at 1Hz.
 * Land under thrust
@@ -37,37 +37,72 @@ While the resulting flight computer will be overkill for all of these applicatio
 	* Required to complete the Land under thrust task 
 1. Should have a GPS module, and be able to transmit as a GPS tracking radio
 	* Makes the result more useful, given an onboard radio is required already
+	
 ---------------------
 
 # Potential chips/ boards to investigate
 
-## Teensy 4.1
+## Microcontroller
 
-Looks like this might be significantly more powerful than a Pico Plus 2 W?
+### Pimoroni Pico 2 Plus W / Pico LiPo 2 XL W
 
-## Pimoroni Pico LiPo 2 XL W
+The Pico 2 Plus W was my starting point before I started looking at the Teensy alternatives. I already have some, and have used them at least a little, so that's a plus in their favour. They also either come with, or have options for coming with, some features I want already built in. This includes wifi, and some lipo functionality. It also has bluetooth, if I want to use that instead of wifi. 
 
-Is this worth going for over the standard Pico Plus 2 W with a LiPo shim? It comes with extra pins, but is also longer as a result.
+The Pico LiPo 2 XL W has the lipo functionality built in already, and is longer as a result (76mm vs 51mm), but also comes with more pins. They are both 21mm wide.
 
-## Hope RF HM-TRP-915 RF module
+Useful links:
+
+* [Pimoroni Pico 2 Plus W](https://shop.pimoroni.com/products/pimoroni-pico-plus-2-w?variant=42182811942995)
+* [Pimoroni LiPo Shim](https://shop.pimoroni.com/products/pico-lipo-shim?variant=32369543086163)
+* [Pimoroni Pico LiPo 2 XL W](https://shop.pimoroni.com/products/pimoroni-pico-lipo-2-xl-w?variant=55447911006587)
+
+
+### Teensy 4.0 or 4.1
+
+This looks to have a significantly more powerful processor than a pico plus 2, and hardware floating point calculations, so I'll have plenty of grunt for calculations, but have to do more stuff myself (wifi, etc). The Teensy 4.1 is a larger and more fully featured board than the Teensy 4.0, at about 61mm vs 36mm (both are about 18mm wide). The 4.1 has the option to add 2x 8MB QSPI chips directly onto the board, and a built in microSD card reader, so I could look at writing some data storage/ retrival code before the PCB is complete.
+
+Useful links:
+
+* [Pi Hut Teensy 4.1](https://thepihut.com/products/teensy-4-1)
+* [Pimoroni Teensy 4.1](https://shop.pimoroni.com/products/teensy-4-1?variant=31757218250835)
+
+Or:
+
+* [Pi Hut Teensy 4.0](https://thepihut.com/products/pjrc-teensy-4-0-usb-development-board)
+* [Pimoroni Teensy 4.0](https://shop.pimoroni.com/products/teensy-4-0-development-board?variant=29443577217107)
+
+
+## RF modules
+
+### ESP8266-12 WiFi Module
+
+If I go for the Teensy over the pico, then I don't get wifi built in. This is the wifi module that eggtimer uses.
+
+### Hope RF HM-TRP-915 RF module
 
 This is the one used by eggtimer, so should be compatible with the ground station. It is also switchable between 868 MHz and 430 MHz, adds flexibility later.
 
-Pico wifi in the middle
+## Sensors
 
-## BMP 390
+### BMP 390
 
 A likely looking pressure sensor.
 
-## LSM6DSV80X 
+### LSM6DSV80X 
 
 A two channel accelerometer, with gyroscope. 16g and 80g should cover most foreseeable use cases
 
-## Quectel L80-R
+### Quectel L80-R
 
 I have some of these, somewhere. Which is a big point in their favour!
 
-## VN5E160S
+### Something from ublox?
+
+People seem to rate these highly, might be worth investigating
+
+## Other
+
+### VN5E160S
 
 These are what the eggtimer quark uses to control deployment charges. 
 
