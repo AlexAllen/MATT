@@ -90,13 +90,13 @@ This is the one used by eggtimer, so should be compatible with the ground statio
 
 ## Sensors
 
-### BMP 390
+### BMP 390 (or 388, or 280, or ...)
 
-A likely looking pressure sensor.
+A temperature and pressure sensor. I used the BMP 280 on my [rocket altimeter](https://github.com/AlexAllen/rocket_altimeter) with good results, and I have one on a breakout board to play with already. According to the Adafruit overview, the BMP280 has a relative accuracy of 12 Pa, the BMP388 8 Pa, and the BMP390 3 Pa. That translates to about 1m for the BMP280 or about 0.25m for the BMP390. Seems to be recommended on TRF threads about building flight computers, so this is probably the one to go for.
 
 ### LSM6DSV80X 
 
-A two channel accelerometer, with gyroscope. 16g and 80g should cover most foreseeable use cases
+A two channel accelerometer, with gyroscope. 16g and 80g should cover most foreseeable use cases. The LSM6DSO32 or similar seem to be recommended on TRF, but this looks like an updated version that includes an 80g rather than a 32g high range accelerometer.
 
 ### Quectel L80-R
 
@@ -108,7 +108,18 @@ People seem to rate these highly, might be worth investigating
 
 ## Other
 
-### VN5E160S
+### VN5E160STR-E
 
-These are what the eggtimer quark uses to control deployment charges. 
+These are what the eggtimer quark uses to control deployment charges. According to Cris Erving of Eggtimer Rocketry, ["in one SOIC-8 package you get 10A current limiting, continuity checking, brownout protection (it shuts off the load if the input voltage drops below 4.5V), overtemperature protection, and they will work with up to 40V input."](https://www.rocketryforum.com/threads/flight-computer-schematic-review-request.186506/post-2588670).
+	
+---------------------
 
+# Other useful things:
+
+## Ulyu (Silicdyne) talks about how to implement an IMU
+
+[This thread on TRF](https://www.rocketryforum.com/threads/did-any-one-found-out-a-way-to-calculate-the-velocity-and-altitude-using-imu-sensors-with-practical-code.191467/post-2722289)
+
+## Cris Erving of Eggtimer Rocketry suggests a copy of this book
+
+[The Circuit Designer's Companion](https://www.amazon.co.uk/Circuit-Designers-Companion-Wilson-Professor/dp/0081017642)
