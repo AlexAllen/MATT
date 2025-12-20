@@ -11,7 +11,7 @@ MATT stands for "Multifunction Altimeter with Telemetry and Tracking", and is a 
 
 I also want to use this project as a vehicle for learning about PCB design, and to improve my electronics skills more generally. I intend to use a microcontroller board (maybe a Pico of some sort, or a Teensy) as a starting point, and then to create my own PCB to provide the rest of the functionality I require. I might do this in stages, creating some simpler boards with a subset of the final functionality on the way towards the final board. 
 
-While the resulting flight computer will be overkill for all of these applications, as I don't expect space or weight contraints to be an issue for any of the flights (within reasonable bounds), having them all use the same computer (or at least a subset of the same computer) means that every flight can help collect data and test functionality for each of the other applications. If I subsequently find I want a more compact, focussed flight computer for a specific application, then that can be its own project, building on the experience gained here. 
+While the resulting flight computer will be overkill for any of these applications, as I don't expect space or weight contraints to be an issue for any of the flights (within reason), having them all use the same computer (or at least a subset of the same computer) means that every flight can help collect data and test functionality for each of the other applications. If I subsequently find I want a more compact, focussed flight computer for a specific application, then that can be its own project, building on the experience gained here. 
 
 ---------------------
 
@@ -98,6 +98,10 @@ A temperature and pressure sensor. I used the BMP 280 on my [rocket altimeter](h
 
 A two channel accelerometer, with gyroscope. 16g and 80g should cover most foreseeable use cases. The LSM6DSO32 or similar seem to be recommended on TRF, but this looks like an updated version that includes an 80g rather than a 32g high range accelerometer.
 
+### LIS3MDL
+
+This magnetometer is discussed on [TRF](https://www.rocketryforum.com/threads/magnetometer-calibration.193930/), where it seems to be a reasonable choice.
+
 ### Quectel L80-R
 
 I have some of these, somewhere. Which is a big point in their favour!
@@ -116,10 +120,10 @@ These are what the eggtimer quark uses to control deployment charges. According 
 
 # Other useful things:
 
-## Ulyu (Silicdyne) talks about how to implement an IMU
+### Ulyu (Silicdyne) talks about how to implement an IMU
 
 [This thread on TRF](https://www.rocketryforum.com/threads/did-any-one-found-out-a-way-to-calculate-the-velocity-and-altitude-using-imu-sensors-with-practical-code.191467/post-2722289)
 
-## Cris Erving of Eggtimer Rocketry suggests a copy of this book
+### Cris Erving (Eggtimer) suggests owning this book
 
 [The Circuit Designer's Companion](https://www.amazon.co.uk/Circuit-Designers-Companion-Wilson-Professor/dp/0081017642)
