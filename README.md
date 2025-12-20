@@ -84,9 +84,9 @@ Or:
 
 If I go for the Teensy over the pico, then I don't get wifi built in. This is the wifi module that eggtimer uses.
 
-### Hope RF HM-TRP-915 RF module
+### Hope RF HM-TRP-868 RF module
 
-This is the one used by eggtimer, so should be compatible with the ground station. It is also switchable between 868 MHz and 430 MHz, adds flexibility later.
+This is the one used by eggtimer, so should be compatible with the ground station. There is also an otherwise identical 433 MHz version, which may be useful later.
 
 ## Sensors
 
