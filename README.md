@@ -23,7 +23,7 @@ While the resulting flight computer will be overkill for any of these applicatio
 	* Required for safety when completing DIY flight computer task
 1. Must record flight data in a robust way in flight (not to an SD card!), and make the data retrievable afterwards
 	* Will make the result more useful, and make it easier to test
-1. Should have individual wireless test functionality for both deployment channels
+1. Could have individual wireless test functionality for both deployment channels
 	* Makes the result more flexible, but could be a later update
 1. Must have UK legal radio link capable of transmitting recorded data at 1Hz
 	* Required to meet Satellite task definition
@@ -115,6 +115,10 @@ People seem to rate these highly, might be worth investigating
 ### VN5E160STR-E
 
 These are what the eggtimer quark uses to control deployment charges. According to Cris Erving of Eggtimer Rocketry, ["in one SOIC-8 package you get 10A current limiting, continuity checking, brownout protection (it shuts off the load if the input voltage drops below 4.5V), overtemperature protection, and they will work with up to 40V input."](https://www.rocketryforum.com/threads/flight-computer-schematic-review-request.186506/post-2588670).
+
+### W25Q01JVZEIM 
+
+1 gigabit flash, so could store plenty of flight data, and recover it later, even after power off.
 	
 ---------------------
 

@@ -1,0 +1,644 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "design.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": {
+      "Net-(C12-Pad1)": [
+        "7.4v"
+      ],
+      "Net-(C13-Pad1)": [
+        "7.4v"
+      ],
+      "Net-(U1-VIN)": [
+        "3.6V"
+      ],
+      "Net-(U2-VCC)": [
+        "3.3V"
+      ],
+      "Net-(U3-VDD)": [
+        "3.3V"
+      ],
+      "Net-(U3-VDDIO)": [
+        "3.3V"
+      ],
+      "Net-(U4-VDD)": [
+        "3.3v"
+      ],
+      "Net-(U5-VDD)": [
+        "3.3v"
+      ],
+      "Net-(U6-VCC)": [
+        "3.3v"
+      ],
+      "Net-(U7-STATUS)": [
+        "APO-STAT"
+      ],
+      "Net-(U8-STATUS)": [
+        "MAIN-STAT"
+      ],
+      "unconnected-(R3-Pad1)": [
+        "3.3v"
+      ],
+      "unconnected-(R4-Pad1)": [
+        "3.3v"
+      ],
+      "unconnected-(U1-0_RX1_CRX2_CS1-Pad2)": [
+        "RF-TX"
+      ],
+      "unconnected-(U1-10_CS_MQSR-Pad12)": [
+        "BMP-CS"
+      ],
+      "unconnected-(U1-11_MOSI_CTX1-Pad13)": [
+        "MOSI"
+      ],
+      "unconnected-(U1-12_MISO_MQSL-Pad14)": [
+        "MISO"
+      ],
+      "unconnected-(U1-13_SCK_LED-Pad35)": [
+        "SCK"
+      ],
+      "unconnected-(U1-1_TX1_CTX2_MISO1-Pad3)": [
+        "RF-RX"
+      ],
+      "unconnected-(U1-24_A10_TX6_SCL2-Pad16)": [
+        "MAIN-STAT"
+      ],
+      "unconnected-(U1-25_A11_RX6_SDA2-Pad17)": [
+        "MAIN-ON"
+      ],
+      "unconnected-(U1-26_A12_MOSI1-Pad18)": [
+        "APO-STAT"
+      ],
+      "unconnected-(U1-27_A13_SCK1-Pad19)": [
+        "APO-ON"
+      ],
+      "unconnected-(U1-28_RX7-Pad20)": [
+        "GPS-TX"
+      ],
+      "unconnected-(U1-29_TX7-Pad21)": [
+        "GPS-RX"
+      ],
+      "unconnected-(U1-2_OUT2-Pad4)": [
+        "RF-CFG"
+      ],
+      "unconnected-(U1-30_CRX3-Pad22)": [
+        "GPS-1PPS"
+      ],
+      "unconnected-(U1-31_CTX3-Pad23)": [
+        "GPS-RST"
+      ],
+      "unconnected-(U1-34_RX8-Pad26)": [
+        "IMU-INT2"
+      ],
+      "unconnected-(U1-35_TX8-Pad27)": [
+        "IMU-INT1"
+      ],
+      "unconnected-(U1-36_CS-Pad28)": [
+        "IMU-CS"
+      ],
+      "unconnected-(U1-37_CS-Pad29)": [
+        "MAG-CS"
+      ],
+      "unconnected-(U1-38_CS1_IN1-Pad30)": [
+        "MAG-INT"
+      ],
+      "unconnected-(U1-39_MISO1_OUT1A-Pad31)": [
+        "MAG-DRDY"
+      ],
+      "unconnected-(U1-3V3-Pad46)": [
+        "3.3V"
+      ],
+      "unconnected-(U1-3_LRCLK2-Pad5)": [
+        "RF-EN"
+      ],
+      "unconnected-(U1-4_BCLK2-Pad6)": [
+        "PWM1"
+      ],
+      "unconnected-(U1-5_IN2-Pad7)": [
+        "PWM2"
+      ],
+      "unconnected-(U1-6_OUT1D-Pad8)": [
+        "PWM3"
+      ],
+      "unconnected-(U1-7_RX2_OUT1A-Pad9)": [
+        "PWM4"
+      ],
+      "unconnected-(U1-9_OUT1C-Pad11)": [
+        "BMP-INT"
+      ],
+      "unconnected-(U2-CONFIG-Pad)": [
+        "RF-CFG"
+      ],
+      "unconnected-(U2-DRX-Pad)": [
+        "RF-RX"
+      ],
+      "unconnected-(U2-DTX-Pad)": [
+        "RF-TX"
+      ],
+      "unconnected-(U2-ENABLE-Pad)": [
+        "RF-EN"
+      ],
+      "unconnected-(U3-CSB-Pad)": [
+        "BMP-CS"
+      ],
+      "unconnected-(U3-INT-Pad)": [
+        "BMP-INT"
+      ],
+      "unconnected-(U3-SCK-Pad)": [
+        "SCK"
+      ],
+      "unconnected-(U3-SDI-Pad)": [
+        "MOSI"
+      ],
+      "unconnected-(U3-SDO-Pad)": [
+        "MISO"
+      ],
+      "unconnected-(U4-CS-Pad)": [
+        "IMU-CS"
+      ],
+      "unconnected-(U4-INT1-Pad)": [
+        "IMU-INT1"
+      ],
+      "unconnected-(U4-INT2-Pad)": [
+        "IMU-INT2"
+      ],
+      "unconnected-(U4-SCL-Pad)": [
+        "SCK"
+      ],
+      "unconnected-(U4-SDA-Pad)": [
+        "MOSI"
+      ],
+      "unconnected-(U4-SDO{slash}TA0-Pad)": [
+        "MISO"
+      ],
+      "unconnected-(U5-CS-Pad10)": [
+        "MAG-CS"
+      ],
+      "unconnected-(U5-DRDY-Pad8)": [
+        "MAG-DRDY"
+      ],
+      "unconnected-(U5-INT-Pad7)": [
+        "MAG-INT"
+      ],
+      "unconnected-(U5-SCL{slash}SPC-Pad1)": [
+        "SCK"
+      ],
+      "unconnected-(U5-SD0{slash}SA1-Pad9)": [
+        "MISO"
+      ],
+      "unconnected-(U5-SDA{slash}SDI{slash}SDO-Pad11)": [
+        "MOSI"
+      ],
+      "unconnected-(U5-VDDIO-Pad6)": [
+        "3.3v"
+      ],
+      "unconnected-(U6-1PPS-Pad6)": [
+        "GPS-1PPS"
+      ],
+      "unconnected-(U6-RXD1-Pad1)": [
+        "GPS-RX"
+      ],
+      "unconnected-(U6-TXD1-Pad2)": [
+        "GPS-TX"
+      ],
+      "unconnected-(U6-~{RESET}-Pad10)": [
+        "GPS-RST"
+      ],
+      "unconnected-(U7-INPUT-Pad2)": [
+        "APO-ON"
+      ],
+      "unconnected-(U7-OUTPUT-Pad6)": [
+        "APO-OUT"
+      ],
+      "unconnected-(U7-OUTPUT-Pad7)": [
+        "APO-OUT"
+      ],
+      "unconnected-(U8-INPUT-Pad2)": [
+        "MAIN-ON"
+      ],
+      "unconnected-(U8-OUTPUT-Pad6)": [
+        "MAIN-OUT"
+      ],
+      "unconnected-(U8-OUTPUT-Pad7)": [
+        "MAIN-OUT"
+      ],
+      "unconnected-(U9-VIN-Pad)": [
+        "7.4v"
+      ],
+      "unconnected-(U9-VOUT-Pad)": [
+        "3.6v"
+      ]
+    },
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "7394b7e9-7fb5-4560-b644-53fc5f15190b",
+      "Root"
+    ]
+  ],
+  "text_variables": {}
+}
