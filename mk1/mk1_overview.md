@@ -12,10 +12,11 @@ As a first go, I am going to leave out the wifi module, but include most of the 
 	- Connect with SPI
 1x LSM6DSV80X
 	- Connect with SPI
-1x LIS3MDL
-	- Connect with SPI
+1x LIS2MDL
+	- Connect with I2C
 1x Quectel L80-R
 	- Connect with UART
 2x VN5E160STR-E for deployment charges
 1x buzzer
 4x pwm out
+1x Pololu D30V30MAL

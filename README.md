@@ -100,7 +100,11 @@ A two channel accelerometer, with gyroscope. 16g and 80g should cover most fores
 
 ### LIS3MDL
 
-This magnetometer is discussed on [TRF](https://www.rocketryforum.com/threads/magnetometer-calibration.193930/), where it seems to be a reasonable choice.
+This magnetometer is discussed on [TRF](https://www.rocketryforum.com/threads/magnetometer-calibration.193930/), but seems to be unavailable.
+
+### LIS2MDLTR
+
+This does appear to be available.
 
 ### Quectel L80-R
 
@@ -119,6 +123,10 @@ These are what the eggtimer quark uses to control deployment charges. According 
 ### W25Q01JVZEIM 
 
 1 gigabit flash, so could store plenty of flight data, and recover it later, even after power off.
+
+### Pololu D30V30MAL
+
+Looks like a very capable buck converter.
 	
 ---------------------
 
