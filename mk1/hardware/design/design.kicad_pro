@@ -288,6 +288,9 @@
       "Net-(U1-VIN)": [
         "3.6V"
       ],
+      "Net-(U10-Vdd)": [
+        "3.3v"
+      ],
       "Net-(U2-VCC)": [
         "3.3V"
       ],
@@ -333,8 +336,20 @@
       "unconnected-(U1-13_SCK_LED-Pad35)": [
         "SCK"
       ],
+      "unconnected-(U1-18_A4_SDA-Pad40)": [
+        "SDA"
+      ],
+      "unconnected-(U1-19_A5_SCL-Pad41)": [
+        "SCL"
+      ],
       "unconnected-(U1-1_TX1_CTX2_MISO1-Pad3)": [
         "RF-RX"
+      ],
+      "unconnected-(U1-20_A6_TX5_LRCLK1-Pad42)": [
+        "MAG-CS"
+      ],
+      "unconnected-(U1-21_A7_RX5_BCLK1-Pad43)": [
+        "MAG-DRDY"
       ],
       "unconnected-(U1-24_A10_TX6_SCL2-Pad16)": [
         "MAIN-STAT"
@@ -401,6 +416,18 @@
       ],
       "unconnected-(U1-9_OUT1C-Pad11)": [
         "BMP-INT"
+      ],
+      "unconnected-(U10-DRDY-Pad7)": [
+        "MAG-DRDY"
+      ],
+      "unconnected-(U10-SCL{slash}SPC-Pad1)": [
+        "SCK"
+      ],
+      "unconnected-(U10-SDA{slash}SDI{slash}SDO-Pad4)": [
+        "MOSI"
+      ],
+      "unconnected-(U10-~{CS}-Pad3)": [
+        "MAG-CS"
       ],
       "unconnected-(U2-CONFIG-Pad)": [
         "RF-CFG"
