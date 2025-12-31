@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "missing_chips")(type "KiCad")(uri "${KIPRJMOD}/missing_chips.kicad_sym")(options "")(descr ""))
+)

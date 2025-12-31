@@ -288,6 +288,12 @@
       "Net-(U1-VIN)": [
         "3.6V"
       ],
+      "Net-(U10-SCL{slash}SPC)": [
+        "SCL"
+      ],
+      "Net-(U10-SDA{slash}SDI{slash}SDO)": [
+        "SDA"
+      ],
       "Net-(U10-Vdd)": [
         "3.3v"
       ],
@@ -319,6 +325,12 @@
         "3.3v"
       ],
       "unconnected-(R4-Pad1)": [
+        "3.3v"
+      ],
+      "unconnected-(R5-Pad2)": [
+        "3.3v"
+      ],
+      "unconnected-(R6-Pad2)": [
         "3.3v"
       ],
       "unconnected-(U1-0_RX1_CRX2_CS1-Pad2)": [
@@ -494,6 +506,12 @@
       ],
       "unconnected-(U5-VDDIO-Pad6)": [
         "3.3v"
+      ],
+      "unconnected-(U5-VIN-Pad)": [
+        "7.4v"
+      ],
+      "unconnected-(U5-VOUT-Pad)": [
+        "3.6v"
       ],
       "unconnected-(U6-1PPS-Pad6)": [
         "GPS-1PPS"
