@@ -444,46 +444,91 @@
       "unconnected-(U2-CONFIG-Pad)": [
         "RF-CFG"
       ],
+      "unconnected-(U2-CONFIG-Pad5)": [
+        "RF-CFG"
+      ],
       "unconnected-(U2-DRX-Pad)": [
+        "RF-RX"
+      ],
+      "unconnected-(U2-DRX-Pad4)": [
         "RF-RX"
       ],
       "unconnected-(U2-DTX-Pad)": [
         "RF-TX"
       ],
+      "unconnected-(U2-DTX-Pad2)": [
+        "RF-TX"
+      ],
       "unconnected-(U2-ENABLE-Pad)": [
+        "RF-EN"
+      ],
+      "unconnected-(U2-ENABLE-Pad6)": [
         "RF-EN"
       ],
       "unconnected-(U3-CSB-Pad)": [
         "BMP-CS"
       ],
+      "unconnected-(U3-CSB-Pad6)": [
+        "BMP-CS"
+      ],
       "unconnected-(U3-INT-Pad)": [
+        "BMP-INT"
+      ],
+      "unconnected-(U3-INT-Pad7)": [
         "BMP-INT"
       ],
       "unconnected-(U3-SCK-Pad)": [
         "SCK"
       ],
+      "unconnected-(U3-SCK-Pad2)": [
+        "SCK"
+      ],
       "unconnected-(U3-SDI-Pad)": [
+        "MOSI"
+      ],
+      "unconnected-(U3-SDI-Pad4)": [
         "MOSI"
       ],
       "unconnected-(U3-SDO-Pad)": [
         "MISO"
       ],
+      "unconnected-(U3-SDO-Pad5)": [
+        "MISO"
+      ],
       "unconnected-(U4-CS-Pad)": [
+        "IMU-CS"
+      ],
+      "unconnected-(U4-CS-Pad12)": [
         "IMU-CS"
       ],
       "unconnected-(U4-INT1-Pad)": [
         "IMU-INT1"
       ],
+      "unconnected-(U4-INT1-Pad4)": [
+        "IMU-INT1"
+      ],
       "unconnected-(U4-INT2-Pad)": [
+        "IMU-INT2"
+      ],
+      "unconnected-(U4-INT2-Pad9)": [
         "IMU-INT2"
       ],
       "unconnected-(U4-SCL-Pad)": [
         "SCK"
       ],
+      "unconnected-(U4-SCL-Pad13)": [
+        "SCK"
+      ],
       "unconnected-(U4-SDA-Pad)": [
         "MOSI"
       ],
+      "unconnected-(U4-SDA-Pad14)": [
+        "MOSI"
+      ],
       "unconnected-(U4-SDO{slash}TA0-Pad)": [
+        "MISO"
+      ],
+      "unconnected-(U4-SDO{slash}TA0-Pad1)": [
         "MISO"
       ],
       "unconnected-(U5-CS-Pad10)": [
@@ -510,7 +555,13 @@
       "unconnected-(U5-VIN-Pad)": [
         "7.4v"
       ],
+      "unconnected-(U5-VIN-Pad3)": [
+        "7.4v"
+      ],
       "unconnected-(U5-VOUT-Pad)": [
+        "3.6v"
+      ],
+      "unconnected-(U5-VOUT-Pad6)": [
         "3.6v"
       ],
       "unconnected-(U6-1PPS-Pad6)": [

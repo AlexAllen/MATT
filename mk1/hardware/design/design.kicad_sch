@@ -1148,6 +1148,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VN5E160STR_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U8"
+				(at 0.635 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VN5E160STR"
+				(at 0.635 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "missing_footprints:vn5e160s"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/vn5e160s-e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High side driver for deployment charges"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VN5E160STR_1_0_1"
+				(rectangle
+					(start -8.89 6.35)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 196 18 1)
+					)
+				)
+			)
+			(symbol "VN5E160STR_1_1_1"
+				(pin power_in line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "STAT_DIS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "STATUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1253,32 +1462,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U3"
+				(at 5.9533 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "BMP390"
+				(at 5.9533 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "missing_footprints:BMP390"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1287,7 +1489,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/1046/1/bst_bmp390_ds002.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pressure sensor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1298,14 +1509,15 @@
 			)
 			(symbol "BMP390_0_1"
 				(rectangle
-					(start -10.16 7.62)
-					(end 11.43 -11.43)
+					(start -8.89 6.35)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 195 64 1)
 					)
 				)
 				(rectangle
@@ -1331,7 +1543,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1349,7 +1561,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1367,7 +1579,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1385,7 +1597,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1403,7 +1615,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1421,7 +1633,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1439,7 +1651,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1457,7 +1669,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1475,7 +1687,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1493,7 +1705,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1508,32 +1720,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U5"
+				(at 2.54 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "D30V30MAL"
+				(at 2.54 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "missing_footprints:D30V30MAx"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1542,7 +1745,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.pololu.com/file/0J2035/d30v30max-fine-adjust-step-down-voltage-regulator-dimensions.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Variable voltage regulator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1560,7 +1772,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 192 39 1)
 					)
 				)
 			)
@@ -1575,7 +1788,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1593,7 +1806,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1611,7 +1824,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1629,7 +1842,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1647,7 +1860,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1665,7 +1878,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1680,32 +1893,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U2"
+				(at 4.445 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "HM-TRP-868"
+				(at 4.445 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "missing_footprints:HM-TRP-XXX"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1714,7 +1918,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.tme.eu/Document/34c5f8a4794dad7a5068931b0a0d37c0/HM-TRP-869S.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Radio module"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1725,14 +1938,15 @@
 			)
 			(symbol "Hope_RF_HM-TRP-868_RF_module_0_1"
 				(rectangle
-					(start -6.35 6.35)
-					(end 15.24 -13.97)
+					(start -5.08 6.35)
+					(end 13.97 -13.97)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 196 41 1)
 					)
 				)
 			)
@@ -1747,7 +1961,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1765,7 +1979,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1783,7 +1997,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1801,7 +2015,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1819,7 +2033,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1837,7 +2051,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1855,7 +2069,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1873,7 +2087,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1891,7 +2105,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1906,20 +2120,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U4"
+				(at 11.0333 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "LSM6DSV80X"
+				(at 11.0333 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1931,7 +2147,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsv80x.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1940,7 +2156,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Accelerometers and Gyroscopes"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1951,14 +2167,15 @@
 			)
 			(symbol "LSM6DSV80x_0_1"
 				(rectangle
-					(start 17.78 5.08)
-					(end -7.62 -12.7)
+					(start -6.35 3.81)
+					(end 16.51 -11.43)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 206 58 1)
 					)
 				)
 			)
@@ -1973,7 +2190,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1991,7 +2208,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2009,7 +2226,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2027,7 +2244,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2045,7 +2262,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2063,7 +2280,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2081,7 +2298,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2099,7 +2316,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2117,7 +2334,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2135,7 +2352,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2153,7 +2370,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2171,7 +2388,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2189,7 +2406,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2207,7 +2424,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2222,32 +2439,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U7"
+				(at 0.635 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "VN5E160STR"
+				(at 0.635 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "missing_footprints:vn5e160s"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2256,7 +2464,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/vn5e160s-e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High side driver for deployment charges"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2274,7 +2491,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 189 32 1)
 					)
 				)
 			)
@@ -7519,7 +7737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "missing_footprints:teensy4.1"
 			(at 215.9 76.2 0)
 			(effects
 				(font
@@ -7528,7 +7746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pjrc.com/store/teensy41.html"
 			(at 215.9 76.2 0)
 			(effects
 				(font
@@ -7537,7 +7755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "The microcontroller"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -7823,6 +8041,7 @@
 		)
 	)
 	(symbol
+		(lib_name "VN5E160STR_1")
 		(lib_id "rockety_extras:VN5E160STR")
 		(at 137.16 176.53 0)
 		(unit 1)
@@ -7848,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "missing_footprints:vn5e160s"
 			(at 137.16 176.53 0)
 			(effects
 				(font
@@ -7857,7 +8076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vn5e160s-e.pdf"
 			(at 137.16 176.53 0)
 			(effects
 				(font
@@ -7866,7 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High side driver for deployment charges"
 			(at 137.16 176.53 0)
 			(effects
 				(font
@@ -8305,7 +8524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "missing_footprints:LSM6DSV80X"
 			(at 48.26 114.3 0)
 			(effects
 				(font
@@ -8314,7 +8533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsv80x.pdf"
 			(at 48.26 114.3 0)
 			(effects
 				(font
@@ -8323,7 +8542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Accelerometers and Gyroscopes"
 			(at 48.26 114.3 0)
 			(effects
 				(font
@@ -8332,46 +8551,46 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c69892b1-60a6-4e1b-9d9a-dcf7daf2b25d")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "a69c0081-a465-41fa-9c5b-0d41e6cb798a")
 		)
-		(pin ""
+		(pin "11"
 			(uuid "d3aca028-f38c-4b58-8895-a06d60e85686")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "eb14c816-7edd-4e4d-9994-1cd71f76dbf7")
 		)
-		(pin ""
+		(pin "12"
 			(uuid "45b4ff9e-2a38-4c3d-b87d-44cf3b339677")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "ca159f88-b310-4dc4-a2c9-ec5bb8f33d22")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "64eb31b6-cb5e-472e-b117-983876a21298")
 		)
-		(pin ""
+		(pin "14"
 			(uuid "bdcc7299-17c7-47ea-94dd-af706afeaea8")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "6068a597-f5ac-492b-b32e-eb15370b7d3c")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "ec42f632-8655-4fab-87a4-349a9efa01bf")
 		)
-		(pin ""
+		(pin "10"
 			(uuid "dbe2bf48-7826-440d-8486-db59b121fc12")
 		)
-		(pin ""
+		(pin "13"
 			(uuid "2bc797f6-5348-41e8-a83e-4a0b85e92e1d")
 		)
-		(pin ""
+		(pin "9"
 			(uuid "749f6e6c-52c8-4b8b-be14-c125b14df719")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "2660f8ed-3964-4f29-bc80-a33f92b80573")
 		)
 		(instances
@@ -8409,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "missing_footprints:HM-TRP-XXX"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -8418,7 +8637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/34c5f8a4794dad7a5068931b0a0d37c0/HM-TRP-869S.pdf"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -8427,7 +8646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Radio module"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -8436,31 +8655,31 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "6"
 			(uuid "abffc1c3-6564-47f4-97ee-3c07bf73bcc9")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "1b6826f6-3322-47f7-bbed-74a0218b1f68")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "34d92d4c-9f75-47ab-bc7c-24d070406a30")
 		)
-		(pin ""
+		(pin "9"
 			(uuid "998b5bb7-2991-4e65-adf7-34e451092d36")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "25684f57-5c2a-423a-ba8b-37a8020835cf")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "912ec863-859a-4396-9404-6a3741069a40")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "b6b8a422-4a3f-4ba3-9a97-b08af952972d")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "ca298bcb-b6f5-41ba-80bf-8e6a4afe9c5f")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "97517d0a-a63f-4b99-ae87-fee55db234ed")
 		)
 		(instances
@@ -8635,7 +8854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "missing_footprints:BMP390"
 			(at 39.37 69.85 0)
 			(effects
 				(font
@@ -8644,7 +8863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/1046/1/bst_bmp390_ds002.pdf"
 			(at 39.37 69.85 0)
 			(effects
 				(font
@@ -8653,7 +8872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pressure sensor"
 			(at 39.37 69.85 0)
 			(effects
 				(font
@@ -8662,34 +8881,34 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "c65529c1-d8b9-4a5e-9d2d-b6631174cba4")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "1e7423fb-83b6-4b06-bdce-c1bede2c58a0")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "4ce16c5c-5028-41cb-99a5-75a595e3e277")
 		)
-		(pin ""
+		(pin "10"
 			(uuid "a5d5e6c4-5a5d-4110-8d10-a9a02ddc5ebb")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "95353d0e-8f11-46a1-bb10-09e2ca7a9f45")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "a536bfdc-d45a-4da7-a5e0-a0fac3aca23a")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "ed9dd713-29e9-4085-b59b-01d7f23213b5")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "cff28617-eb90-408a-9484-599da859932d")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "f75e3c24-a0de-431f-9273-3d1f677be685")
 		)
-		(pin ""
+		(pin "9"
 			(uuid "7779813e-345b-46aa-aa14-cda392922b45")
 		)
 		(instances
@@ -8793,7 +9012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "missing_footprints:vn5e160s"
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -8802,7 +9021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vn5e160s-e.pdf"
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -8811,7 +9030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High side driver for deployment charges"
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -9423,7 +9642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "missing_footprints:D30V30MAx"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -9432,7 +9651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pololu.com/file/0J2035/d30v30max-fine-adjust-step-down-voltage-regulator-dimensions.pdf"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -9441,7 +9660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Variable voltage regulator"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -9450,22 +9669,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "31a3eebd-bb42-475f-8b55-60ea5e7af8bc")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "339d5ff7-e0b0-4c37-ab74-c105ea13f74b")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "e6ff1d3a-f7e2-467d-8fcd-aad708774b1d")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "1113b983-4a0f-486d-aad7-919c087eb8c6")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "a24cc516-b6bf-40a3-b445-ec08e62c3cbc")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "b4ba3000-6620-4dc7-9d75-4fc6bea80523")
 		)
 		(instances
