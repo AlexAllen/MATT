@@ -1357,6 +1357,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "missing_chips:TBC05_04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TBC05_04_0_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end 2.54 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TBC05_04_1_1"
+				(pin power_in line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "APO_VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "APO_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "MAIN_VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name "MAIN_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4208,6 +4344,12 @@
 		(uuid "dfa81fa8-09dc-415c-90c1-9998d843a991")
 	)
 	(junction
+		(at 166.37 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed1b511e-d2ce-409c-a7c6-f9e3ca7e4961")
+	)
+	(junction
 		(at 76.2 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4797,6 +4939,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 96.52) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fbf542-1866-4f45-8c59-f6d56e2b0811")
+	)
+	(wire
+		(pts
 			(xy 39.37 115.57) (xy 29.21 115.57)
 		)
 		(stroke
@@ -4904,6 +5056,16 @@
 			(type default)
 		)
 		(uuid "8d58b983-d201-47c3-b4df-2b7354bdda50")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912c19a4-205f-4836-8556-fbceeb02fc5f")
 	)
 	(wire
 		(pts
@@ -5414,6 +5576,16 @@
 			(type default)
 		)
 		(uuid "ee2c619f-8354-4717-b1c5-0ed5bc3179c7")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee757329-0fb7-4d02-b59a-b3d1e3001d43")
 	)
 	(wire
 		(pts
@@ -6961,6 +7133,36 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 149.86 93.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0ebea8f-b64d-437c-ae70-b742dffa7a0a")
+		(property "Netclass" "APO-OUT"
+			(at 153.416 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -19.05 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 39.37 120.65 90)
 		(effects
 			(font
@@ -7070,36 +7272,6 @@
 		)
 		(property "Component Class" ""
 			(at -173.99 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 254 77.47 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8dc9805-067b-4d6c-a5a5-8a02383a3d40")
-		(property "Netclass" "MAG-INT"
-			(at 259.588 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 6.35 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,6 +7603,36 @@
 		)
 		(property "Component Class" ""
 			(at -109.22 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 149.86 99.06 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1f4df5c-4e8f-4162-b81e-2418789f0986")
+		(property "Netclass" "MAIN-OUT"
+			(at 153.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -124.46 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,7 +8357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "missing_footprints:AX1203DLF"
 			(at 273.685 68.58 90)
 			(effects
 				(font
@@ -8389,7 +8591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 50.8 148.8948 0)
 			(effects
 				(font
@@ -8718,7 +8920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 20.828 167.64 90)
 			(effects
 				(font
@@ -8987,6 +9189,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43e1031a-5ffd-4eab-aabd-8278e7ff4daa")
+		(property "Reference" "#PWR013"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3576185e-c1d6-44d9-92eb-f1218649bd10")
+		)
+		(instances
+			(project ""
+				(path "/7394b7e9-7fb5-4560-b644-53fc5f15190b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "rockety_extras:VN5E160STR")
 		(at 227.33 147.32 0)
 		(unit 1)
@@ -9100,7 +9368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 21.2852 63.5 0)
 			(effects
 				(font
@@ -9170,7 +9438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 63.8048 71.12 0)
 			(effects
 				(font
@@ -9240,7 +9508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.0852 158.75 0)
 			(effects
 				(font
@@ -9508,7 +9776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 258.1148 24.13 0)
 			(effects
 				(font
@@ -9723,7 +9991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 29.718 165.1 90)
 			(effects
 				(font
@@ -9791,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.03 26.3652 0)
 			(effects
 				(font
@@ -9924,7 +10192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 43.18 155.9052 0)
 			(effects
 				(font
@@ -9994,7 +10262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 247.142 142.24 90)
 			(effects
 				(font
@@ -10031,6 +10299,80 @@
 			(project ""
 				(path "/7394b7e9-7fb5-4560-b644-53fc5f15190b"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "missing_chips:TBC05_04")
+		(at 144.78 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8052bcdd-60fc-4e49-979b-16abed4d434f")
+		(property "Reference" "U9"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBC05"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9611384-164a-42ce-928c-01c9e075d37e")
+		)
+		(pin "4"
+			(uuid "d9c0a430-8740-400d-8f88-bc767b3450c3")
+		)
+		(pin "1"
+			(uuid "7ab84a45-aa76-4f10-b2b1-2c7a1463c66d")
+		)
+		(pin "3"
+			(uuid "ce9cb038-95c7-411a-bb21-b988464f3297")
+		)
+		(instances
+			(project ""
+				(path "/7394b7e9-7fb5-4560-b644-53fc5f15190b"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -10460,7 +10802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 158.242 168.91 90)
 			(effects
 				(font
@@ -10596,7 +10938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 31.4452 29.21 0)
 			(effects
 				(font
@@ -10799,7 +11141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 110.1852 187.96 0)
 			(effects
 				(font
@@ -10866,7 +11208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 63.5 179.3748 0)
 			(effects
 				(font
@@ -11066,7 +11408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 123.19 44.1452 0)
 			(effects
 				(font
@@ -11134,7 +11476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.03 39.0652 0)
 			(effects
 				(font
@@ -11368,7 +11710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 148.082 165.1 90)
 			(effects
 				(font
@@ -11435,7 +11777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.252 134.62 90)
 			(effects
 				(font
@@ -11637,7 +11979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 75.8952 130.81 0)
 			(effects
 				(font

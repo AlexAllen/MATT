@@ -594,6 +594,12 @@
       "unconnected-(U8-OUTPUT-Pad7)": [
         "MAIN-OUT"
       ],
+      "unconnected-(U9-APO_VCC-Pad1)": [
+        "APO-OUT"
+      ],
+      "unconnected-(U9-MAIN_VCC-Pad3)": [
+        "MAIN-OUT"
+      ],
       "unconnected-(U9-VIN-Pad)": [
         "7.4v"
       ],

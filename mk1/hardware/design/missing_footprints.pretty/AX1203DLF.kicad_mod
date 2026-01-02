@@ -1,0 +1,123 @@
+(footprint "AX1203DLF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec71fd1d-f981-4bfd-868b-9e7f74918f33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AX1203DLF"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9754f6e5-3dec-4774-a7f4-9e8e95251fc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "581850a4-c9c1-479c-bd8e-f19b53d71dbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91a7cdbd-7eb3-4aa9-a0ad-1fa84c469464")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "be4b5037-302e-4881-9b5d-91d1a3ba43dc")
+	)
+	(fp_text user "-"
+		(at 2.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80cd30f1-be13-4da6-ba3e-b15c5a14b196")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -4 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "94c1b3a0-958f-436c-9e90-266aafc8077f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd6dbe1b-637d-49af-9a82-296f2d7d4ee0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77e5a91d-c180-4e67-aab5-5d59dd9ee5f3")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "03c92eba-55b1-4392-8f51-84eb6d4521cb")
+	)
+	(embedded_fonts no)
+)
