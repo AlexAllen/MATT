@@ -1451,7 +1451,7 @@
 			(pin power_in line
 				(at 5.08 -2.54 180)
 				(length 2.54)
-				(name "APO_VCC"
+				(name "1_VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1469,7 +1469,7 @@
 			(pin power_in line
 				(at 5.08 -5.08 180)
 				(length 2.54)
-				(name "APO_GND"
+				(name "1_GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1487,7 +1487,7 @@
 			(pin power_in line
 				(at 5.08 -7.62 180)
 				(length 2.54)
-				(name "MAIN_VCC"
+				(name "2_VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1505,7 +1505,7 @@
 			(pin power_in line
 				(at 5.08 -10.16 180)
 				(length 2.54)
-				(name "MAIN_GND"
+				(name "2_GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1929,6 +1929,106 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "power_in"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "power_in_0_1"
+			(rectangle
+				(start 1.27 6.35)
+				(end 10.16 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "power_in_1_1"
+			(pin output line
+				(at 12.7 3.81 180)
+				(length 2.54)
+				(name "+ve"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 1.27 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

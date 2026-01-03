@@ -1,4 +1,4 @@
-26396189524849540
+26403259343096011
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104901,6 +104901,34 @@ LSM6DSV80X
 0
 14
 14
+missing_footprints
+TBC05-04_charges
+
+
+0
+4
+4
+missing_footprints
+TBC05-04_pwm1
+
+
+0
+4
+4
+missing_footprints
+TBC05-04_pwm2
+
+
+0
+4
+4
+missing_footprints
+power_in
+
+
+0
+2
+2
 missing_footprints
 teensy4.1
 
